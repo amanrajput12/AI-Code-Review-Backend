@@ -6,7 +6,7 @@ const {GoogleGenAI}= require("@google/genai")
  console.log(process.env.GOOGLE_GEMNI_KEY);
 // return "hello"
 const ai = new GoogleGenAI({
-    apiKey: "AIzaSyBdfD_U372-0WoLH7DJFH-7tzIVGdbAJpg"
+    apiKey: process.env.GOOGLE_GEMNI_KEY
 });
 
 // async function main() {
